@@ -1,0 +1,6 @@
+include ':app', ':teacher'
+include ':base'
+include ':dialog'
+include ':widget'
+include ':image'
+include ':umeng'

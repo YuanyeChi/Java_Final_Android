@@ -1,0 +1,47 @@
+package com.chiyuanye.entity;
+
+/**
+ * Created by  ansen
+ * Create Time 2017-06-05
+ */
+public class User extends BaseResult{
+    private String username;
+    private String password;
+    private String Exist;
+    private String answer;
+    private String comment;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
+    public String getExist() {
+        return Exist;
+    }
+    
+    public String getAnswer() {return answer;}
+
+    public void setAnswer(String answer) {this.answer = answer; }
+
+    public String getComment() {return comment;}
+
+    public void setComment(String comment) {this.comment = comment;}
+
+    public void setExist(boolean isExist) {
+        this.Exist = isExist == true ? "true" : "false";
+    }
+
+
+}
